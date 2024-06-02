@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FakeJS</title>
+</head>
+
+<body>
+  <!-- <div id="app"></div> -->
+
+  <navbar type="desktop">
+    <navlink link="#" type="internal">Home</navlink>
+    <navlink link="#" type="external">Contact</navlink>
+    <navlink link="#" type="default">About</navlink>
+  </navbar>
+
+  <navbar type="mobile">
+    <navlink link="#" type="internal">Home</navlink>
+    <navlink link="#" type="external">Contact</navlink>
+    <navlink link="#" type="default">About</navlink>
+  </navbar>
+
+  <div type="counter" value="5" name="abc"></div>
+  <button type="button" state="counter" operation="increase" value="5" name="abc">Add</button>
+  <button type="button" state="counter" operation="decrease" value="5" name="abc">Remove</button>
+  <button type="button" state="counter" operation="multiply" value="5" name="abc">multiply</button>
+  <button type="button" state="counter" operation="divide" value="5" name="abc">Divide</button>
+  <button type="button" state="counter" operation="modulo" value="5" name="abc">Modulo</button>
+  
+
+  <script type="module" src="/app.js"></script>
+</body>
+
+</html>

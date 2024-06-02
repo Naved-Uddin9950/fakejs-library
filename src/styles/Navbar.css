@@ -1,0 +1,23 @@
+.navbar-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+navlink {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+navlink:hover {
+    color: rgb(63, 63, 221);
+}
+
+navlink:active {
+    color: blue;
+}
